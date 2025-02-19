@@ -67,7 +67,7 @@ export class Order {
         } else {
           aReturn.push(`with ${this.pastaCheese} cheese.`);
         }
-        aReturn.push("Your order will be ready for pickup in 20 minutes at 123 Main Street.");
+        aReturn.push("Your order will be ready for pickup in 20 minutes at 233 Paris Street.");
         aReturn.push("Enjoy your meal, and thank you for choosing Vanessa's Italian Takeout!");
         this.isDone = true;
         return aReturn;
